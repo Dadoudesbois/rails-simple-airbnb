@@ -1,0 +1,36 @@
+.btd-light {
+  padding: 7px;
+  border-radius: 15px;
+  border: 1px solid #999999;
+  color: #999999;
+  text-decoration: none;
+  &:hover {
+    border: 1px solid rgba(0,0,0, 0.05);
+    color: rgba(0,0,0,0.05);
+    text-decoration: none;
+  }
+}
+
+.blue {
+  color: blue;
+  padding: 4px;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.orange {
+  color: orange;
+  padding: 4px;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.red {
+  color: red;
+  padding: 4px;
+  &:hover {
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,39 @@
+<img class="banshow" src="https://source.unsplash.com/hsYPk7SuSho">
+
+<div class="container">
+
+  <div class="wrapshow">
+
+    <div class="main">
+
+      <div class="t1">
+       <h1><%= @flat.name %></h1>
+       <p> <%= @flat.address %></p>
+      </div>
+
+      <div class="t2">
+        <h3> A bit more about this magnificent venue </h3>
+        <p> <%=  @flat.description %> </p>
+      </div>
+
+      <div class="dt">
+        <h3> Details </h3>
+        <p> <i class="fas fa-users"></i> <%= @flat.number_of_guests %>
+        <i class="fas fa-euro-sign"></i> <%= @flat.price_per_night %></p>
+      </div>
+
+    </div>
+
+    <div class="bookshare">
+      <div class="book">
+        <h3> Book this place ! </h3>
+        <div class="greenbut"> Let's Go </div>
+      </div>
+      <div class="share">
+
+      </div>
+    </div>
+
+
+  </div>
+</div>

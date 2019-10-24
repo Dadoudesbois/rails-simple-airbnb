@@ -1,3 +1,82 @@
 // Place all the styles related to the flats controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  font-family: helvetica;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  margin: 25px;
+}
+
+.card-flat {
+  width: 25vw;
+  margin: auto;
+  box-shadow: 0px 2px 3px #DCDCDC;
+  background-color: rgba(0,0,0,0.05);
+  position: relative;
+  .bottom-flat-card {
+    border-top: 1px solid #DCDCDC;
+    background-color: white;
+    position: relative;
+    bottom: 0px;
+  }
+  .text {
+    padding: 15px;
+  }
+}
+
+.wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  margin: 20px auto;
+}
+
+
+.banshow {
+  width: 100vw;
+  height: 60vh;
+  object-fit: cover;
+}
+
+.t1, .t2, .dt {
+  background-color: #F2F2F2;
+  box-shadow: 0px 2px 3px #DCDCDC;
+  padding: 10px;
+  margin: 15px;
+  width: 50vw;
+}
+
+.wrapshow {
+  position: relative;
+  top: -10vh;
+  display: grid;
+  grid-template-columns: 7fr 3fr;
+  grid-gap: 5px;
+  width: 80%;
+}
+
+.book {
+  background-color: #F2F2F2;
+  box-shadow: 0px 2px 3px #DCDCDC;
+  padding: 10px;
+  margin: 15px;
+  width: 30vw;
+  text-align: center;
+  .greenbut{
+    color: white;
+    background-color: green;
+    padding: 6px;
+    width: 80%;
+    margin: 10px auto;
+    text-align: center;
+  }
+}
+
+
