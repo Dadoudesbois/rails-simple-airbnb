@@ -1,5 +1,14 @@
 <div class="navy">
 <%= link_to "Simple AirBNB", root_path, class: "linky"%>
+
+<div class="srch">
+<%= form_tag(flats_path, method: :get) do %>
+  <%= text_field_tag(:search, params[:search]) %>
+  <%= submit_tag("Search") %>
+<% end %>
+</div>
+
+
  <%= link_to "Add a flat ", new_flat_path, class: 'btd-light'%>
 </div>
 
